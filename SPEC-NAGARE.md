@@ -1,8 +1,15 @@
 # AgentSpec — Nagare Auto-Reschedule Agent
 
-**Team:** Dot
-**Department:** Information Technology
-**Submitted:** 15 September 2026
+**Team:** Dot  
+**Department:** Information Technology  
+**Submitted:** 15 September 2026  
+
+**Team Members:**  
+Abinaya S  
+Vinu Priya V  
+Harshatha Rithika S  
+Manaswini K S  
+Ezhil Oviya S  
 
 ---
 
@@ -406,7 +413,6 @@ other would need a lock or a combined search.
 
 | claim | how to check | checked? |
 |---|---|---|
-| The reschedule service's `AI_SERVICE_URL` points at NANI's port 8001, not 8000 | check the service's env config before wiring real calls in phase 2 | yes |
 | `google-genai` (post-migration) returns valid JSON for the check prompt reliably | run the check prompt twenty times against the walkthrough day, count schema failures | no |
 | NANI's Gemini free-tier quota covers a full day of draft/check testing | read the quota page, then run enough pairs to hit phase-2 volume | no |
 | Two `conflict_check` records can be compared for "same underlying cause" without a model call | write the comparison, try it on the walkthrough's two attempts | no |
